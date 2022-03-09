@@ -1,0 +1,47 @@
+{% extends 'basic.html' %}
+
+{% block title%} About {% endblock %}
+{% block aboutactive %} active{% endblock aboutactive %}
+{% block body %}
+
+<div class="col-md-6 offset-md-3" style="background: rgb(36,0,33);
+background: linear-gradient(90deg, rgba(36,0,33,1) 0%, rgba(126,126,219,1) 7%, rgba(29,142,164,1) 88%); margin-top: 70px;
+padding-left: 50px">
+
+            <h1 class="bd-title" id="content" style="color: #0d0d0e">About</h1>
+            <p class="bd-lead" style="font-size: large">This project is made for Medical Store Management System. </p>
+
+           <h1 style="color: #0f0f10">Team</h1>
+            <h4>Backend:</h4>
+            <p> Adarsh and Mukul </p>
+            <P>Email: mukulb743@gmail.com</P>
+            <h4>Frontend: </h4>
+            <p>Asif and Shreeram </p>
+            <h1 style="color: #1e1e1f">Technology :</h1>
+            <h4>Backend:</h4> <P>Python Django-Framework, Django-Rest-Framework.</P>
+            <h4>Frontend:</h4><p> HTML5, CSS, Javascript, Bootstrap4.</P>
+
+
+
+
+            
+
+
+</div>
+{% endblock %}
+{% block css %}
+p{
+text-align:justify;
+line-height:25px;
+{% comment %} text-shadow: 1px 2px blue; {% endcomment %}
+text-indent:30px;
+padding-left:30px;
+text-transformation: capitalize;
+}
+p a{
+    color:blue;
+}
+a:hover{
+    border-bottom:2px solid red;
+}
+{% endblock  %}
